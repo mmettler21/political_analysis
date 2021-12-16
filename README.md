@@ -1,4 +1,4 @@
-<img src="static/brouillon.png">
+<img src="static/titre.png">
 
 # Introduction:
 
