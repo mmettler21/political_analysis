@@ -2,7 +2,7 @@
 # Customize Options: Must Change
 #
 # Title:
-title: Duo, A Simple Jekyll Theme
+title: Political analysis
 
 # Where the page will be deployed.
 # If it's https://foo.com/bar, just write "https://foo.com"
@@ -14,9 +14,9 @@ baseurl: "/duo/"
 
 # Twitter IDs
 twitter:
-  username: "chibicode"
+  username: "mmettler"
 author:
-  twitter: "chibicode"
+  twitter: "mmettler"
 
 # Set default og:image
 # From Unsplash: https://unsplash.com/photos/1_CMoFsPfso
