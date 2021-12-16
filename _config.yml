@@ -10,7 +10,7 @@ url: "https://mmettler21.github.io/"
 
 # If you're deployging to a subdirectory (https://foo.com/bar/)
 # Then write "/bar/". Otherwise, remove this line.
-baseurl: "/duo/"
+#baseurl: "/duo/"
 
 # Twitter IDs
 twitter:
@@ -68,3 +68,4 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-readme-index
+  - jekyll-tabs
