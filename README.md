@@ -208,12 +208,28 @@ Bla Bla Bla
 
 
 
+<br>
+<footer style="background-color: #d32f2f">
+    <div class="container">
+        <div class="row ">
+            <div class="col text-white text-center">
+                <p>
+                    <br>
+                    Mettler Marc, Gulart Maia Manuela, Msaada Sinda, Charroin François
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
 
 <br>
 <footer style="background-color: #d32f2f">
     <div class="container">
         <div class="row ">
-            <div class="col text-white text-left">
+            <div class="col text-white text-center">
                 <p>
                     <br>
                     Mettler Marc, Gulart Maia Manuela, Msaada Sinda, Charroin François
