@@ -1,4 +1,4 @@
-<img src="static/images/10.png">
+<img src="static/images/og.png">
 
 # Introduction:
 
