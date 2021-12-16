@@ -1,4 +1,4 @@
-<img src="static/images/og.png">
+<img src="static/brouillon.png">
 
 # Introduction:
 
