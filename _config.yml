@@ -6,7 +6,7 @@ title: Political analysis
 
 # Where the page will be deployed.
 # If it's https://foo.com/bar, just write "https://foo.com"
-url: "https://mmettler21.github.io/political_analysis/"
+url: "https://mmettler21.github.io/"
 
 # If you're deployging to a subdirectory (https://foo.com/bar/)
 # Then write "/bar/". Otherwise, remove this line.
