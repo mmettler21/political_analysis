@@ -2,7 +2,7 @@
 
 # Introduction
 
-## Abstract
+## Abstraction
 
 Donald Trump banned from twitter; this sentence should be familiar to you. In the last ten years, there has been an explosion of polemical phrases of all kinds. Most of the well-known newspapers have picked up these quotations and put them in their columns, and not only from Twitter... Thanks to the framework *Quobert*, developed by Robert West and others, we have a dataset of millions of quotations on hand coming from different newspapers between 2015 to 2020. The <b> million-dollar </b> question was the next one, what can we proceed with such a dataset?
 
@@ -179,6 +179,35 @@ The distribution of active users by time of day and day of the week <b>does not 
 # Conclusion
 
 Bla Bla Bla
+
+<br>
+<footer style="background-color: #d32f2f">
+    <div class="container">
+        <div class="row ">
+            <div class="col text-white text-center">
+                <p>
+                    <br>
+                    Mettler Marc, Gulart Maia Manuela, Msaada Sinda, Charroin François
+                    <br>
+                    ADA, EPFL, December 2021
+                    <br>
+                    <a href="https://github.com/epfl-ada/ada-2021-project-therealabracadabra"><b>GitHub Repository</b></a>
+                    •
+                    <a href="https://github.com/mmettler21/political_analysis"> <b> Website Repository </b> </a>
+                    <br>
+                    <b>Theme </b>
+                    <a href="https://github.com/chibicode/duo">duo</a>
+                    <b>by </b>
+                    <a href="https://github.com/chibicode">Shu Uesugi</a>
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
 
 <br>
 <footer style="background-color: #d32f2f">
