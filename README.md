@@ -22,7 +22,7 @@ The first phenomenon allows us to study user engagement on a platform, how many 
 
 The study of the second phenomenon will allow us to see if our use of social networks is linked to a certain rhythm. Are we going to use social networks on a certain day, at a certain time? We will also see if the <b>observations are common to all networks or if each social network has its own specificities.</b>
 
-<iframe src="static/Lda_Fox.html" style="width: 1300px; height: 900px; border: 0px"></iframe>
+<iframe src="static/Lda_Fox.html" style="width: 1300px; height: 900px; border: -50px"></iframe>
 
 ## Social networks studied
 
