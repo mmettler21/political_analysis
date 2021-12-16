@@ -27,6 +27,31 @@ Concerning the reading of the data, our first approach was to read the dataset u
 Consequently, an alternative was proposed : the approach was to use only one chunk per pickle by reading the files of each year and combining them together. Then, we were able to generate a dataframe for each newspaper we were interested in, which whole quotations between 2015 and 2020.  
 
 
+# What can be said about the number behind the quotations ?
+
+## 
+
+We selected some words that we thought they can differentiate democrats and republicans and we analyze their frequency of apparencies in the Quotebank. We notice that even though the number of quotations from the New York Times in the Quotebank dataset is larger than the one from Fox News <b> (mettre NUMBER !!!!!!!!!!!!!) </b>, the later has more quotations about those topics than the other one, except for climate change where their occurrences are similar. From this we can maybe elaborate a first hypothesis that Fox News gives a higher importance to sensitive topics. 
+
+A t-test was done to search for a correlation between our results and as expected, only the p-value of topics related to climate change was higher than 0.05 <b> (ALPHA !!!!!!!!!!!!!) </b> and thus their means are comparable. This could be maybe explained by the fact that the New York Times has other priorities. 
+
+
+<body> 
+<center> 
+<h3> Comparison between the distribution of posts during the day across our platforms </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<p align="center">
+  <img width="600" src="images/word_updated.png">
+</p>
+
+
+
+
+
+
 
 # Introduction:
 
