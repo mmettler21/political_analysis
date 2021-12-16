@@ -1,1 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/duo/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/duo/static/images/Evaluation%20of%20the%20difference%20in%20usage%20across%20major%20social%20platforms%20_%20%F0%9F%91%AC%20A%20Simple%20Jekyll%20Theme..html</loc>
+<lastmod>2020-12-15T21:27:20+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/duo/static/images/extra.html</loc>
+<lastmod>2020-12-17T20:58:42+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/duo/static/images/fig2a.html</loc>
+<lastmod>2020-12-18T00:54:55+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/duo/static/images/fig2b_bis.html</loc>
+<lastmod>2020-12-18T01:34:19+01:00</lastmod>
+</url>
+</urlset>
 
