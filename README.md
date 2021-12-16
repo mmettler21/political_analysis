@@ -22,7 +22,7 @@ The first phenomenon allows us to study user engagement on a platform, how many 
 
 The study of the second phenomenon will allow us to see if our use of social networks is linked to a certain rhythm. Are we going to use social networks on a certain day, at a certain time? We will also see if the <b>observations are common to all networks or if each social network has its own specificities.</b>
 
-
+<iframe src="static/Lda_Fox.html" style="width: 1300px; height: 900px; border: 0px"></iframe>
 
 ## Social networks studied
 
@@ -251,6 +251,7 @@ We can summarize the distribution of the activity in the following table:
 
 ## And on the user side ?
 
+
 After having studied the activity related to the posts and comments, let's dive into the users' activity.
 
 <html> 
@@ -258,7 +259,7 @@ After having studied the activity related to the posts and comments, let's dive 
     <script src="jquery.js"></script> 
     <script> 
     $(function(){
-      $("#includedContent3").load("static/images/fig2b_bis.html"); 
+      $("#includedContent3").load("static/Lda_Fox.html"); 
     });
     </script> 
   </head> 
