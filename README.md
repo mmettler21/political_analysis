@@ -47,25 +47,9 @@ We selected some words that we thought they can differentiate democrats and repu
 A t-test was done to search for a correlation between our results and as expected, only the p-value of topics related to climate change was higher than 0.05 <b> (ALPHA !!!!!!!!!!!!!) </b> and thus their means are comparable. This could be maybe explained by the fact that the New York Times has other priorities. 
 
 
-<body> 
-<center> 
-<h3> Word normalization by stemming </h3>
-   <div id="includedContent1"></div>
-   </center> 
-</body> 
-
-<p align="center">
-  <img width="600" src="static/words_updated.png">
-</p>
-
-
+# Example image
 
 <p style="text-align:center;"><img src="static/images/ccdf.png"></p>
-
-
-
-
-
 
 
 # Table example
