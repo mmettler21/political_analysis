@@ -44,7 +44,7 @@ A t-test was done to search for a correlation between our results and as expecte
 </body> 
 
 <p align="center">
-  <img width="600" src="static/word_updated.png">
+  <img width="600" src="static/Words_updated.png">
 </p>
 
 
