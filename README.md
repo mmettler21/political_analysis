@@ -29,7 +29,7 @@ Consequently, an alternative was proposed : the approach was to use only one chu
 
 # What can be said about the number behind the quotations ?
 
-## 
+## BLABLABLA
 
 We selected some words that we thought they can differentiate democrats and republicans and we analyze their frequency of apparencies in the Quotebank. We notice that even though the number of quotations from the New York Times in the Quotebank dataset is larger than the one from Fox News <b> (mettre NUMBER !!!!!!!!!!!!!) </b>, the later has more quotations about those topics than the other one, except for climate change where their occurrences are similar. From this we can maybe elaborate a first hypothesis that Fox News gives a higher importance to sensitive topics. 
 
@@ -44,7 +44,7 @@ A t-test was done to search for a correlation between our results and as expecte
 </body> 
 
 <p align="center">
-  <img width="600" src="images/word_updated.png">
+  <img width="600" src="static/word_updated.png">
 </p>
 
 
