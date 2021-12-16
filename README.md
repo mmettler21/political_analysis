@@ -284,33 +284,6 @@ function includeHTML() {
 includeHTML();
 </script>
 
-<br>
-<footer style="background-color: #d32f2f">
-    <div class="container">
-        <div class="row ">
-            <div class="col text-white text-center">
-                <p>
-                    <br>
-                    Yassine Khallfi, Charles David Sasportes, Kamyar Taher
-                    <br>
-                    <button id="ada"><b>ADA</b></button>, EPFL
-                    <br>
-                    <a href="https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_adatada"><b>GitHub Repository</b></a>
-                    •
-                    <a href="https://github.com/YassineKhalfi/yassinekhalfi.github.io"> <b> Website Repository </b> </a>
-                    <br>
-                    <b>Theme </b>
-                    <a href="https://github.com/chibicode/duo">duo</a>
-                    <b>by </b>
-                    <a href="https://github.com/chibicode">Shu Uesugi</a>
-                    <br>
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
 
 
 <a href="https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_adatada" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;">
