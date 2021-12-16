@@ -38,13 +38,13 @@ A t-test was done to search for a correlation between our results and as expecte
 
 <body> 
 <center> 
-<h3> Comparison between the distribution of posts during the day across our platforms </h3>
+<h3> Word normalization by stemming </h3>
    <div id="includedContent1"></div>
    </center> 
 </body> 
 
 <p align="center">
-  <img width="600" src="static/Words_updated.png">
+  <img width="600" src="static/words_updated.png">
 </p>
 
 
