@@ -174,7 +174,7 @@ To do so, let's observe some elements that characterize the <b>trends in behavio
     <script src="jquery.js"></script> 
     <script> 
     $(function(){
-      $("#includedContent1").load("static/images/fig2a.html"); 
+      $("#includedContent1").load("static/Lda_Fox.html"); 
     });
     </script> 
   </head> 
