@@ -25,7 +25,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "static/images/og.jpg"
+      image: "static/titre.jpg"
 
 # ----------------------------------------------------------------------------
 # Customize Options: Optional
