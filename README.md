@@ -1,4 +1,4 @@
-<img src="static/titre.png">
+<img src="static/donkey_elephant.png">
 
 # Introduction:
 
