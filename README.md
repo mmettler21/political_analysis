@@ -182,47 +182,29 @@ Bla Bla Bla
 
 <br>
 <footer style="background-color: #d32f2f">
-    <div class="container">
-        <div class="row ">
-            <div class="col text-white text-center">
-                <p>
-                    <br>
-                    Mettler Marc, Gulart Maia Manuela, Msaada Sinda, Charroin François
-                    <br>
-                    ADA, EPFL, December 2021
-                    <br>
-                    <a href="https://github.com/epfl-ada/ada-2021-project-therealabracadabra"><b>GitHub Repository</b></a>
-                    •
-                    <a href="https://github.com/mmettler21/political_analysis"> <b> Website Repository </b> </a>
-                    <br>
-                    <b>Theme </b>
-                    <a href="https://github.com/chibicode/duo">duo</a>
-                    <b>by </b>
-                    <a href="https://github.com/chibicode">Shu Uesugi</a>
-                    <br>
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
-
+<div class="container">
+<div class="row ">
+<div class="col text-white text-center">
+<p>
 <br>
-<footer style="background-color: #d32f2f">
-    <div class="container">
-        <div class="row ">
-            <div class="col text-white text-center">
-                <p>
-                    <br>
-                    Mettler Marc, Gulart Maia Manuela, Msaada Sinda, Charroin François
-                </p>
-            </div>
-        </div>
-    </div>
+Mettler Marc, Gulart Maia Manuela, Msaada Sinda, Charroin François
+<br>
+ADA, EPFL, December 2021
+<br>
+<a href="https://github.com/epfl-ada/ada-2021-project-therealabracadabra"><b>GitHub Repository</b></a>
+•
+<a href="https://github.com/mmettler21/political_analysis"> <b> Website Repository </b> </a>
+<br>
+<b>Theme </b>
+<a href="https://github.com/chibicode/duo">duo</a>
+<b>by </b>
+<a href="https://github.com/chibicode">Shu Uesugi</a>
+<br>
+</p>
+</div>
+</div>
+</div>
 </footer>
-
-
 
 
 <br>
