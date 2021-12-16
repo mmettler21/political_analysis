@@ -184,7 +184,7 @@ Bla Bla Bla
 <footer style="background-color: #d32f2f">
     <div class="container">
         <div class="row ">
-            <div class="col text-white text-center">
+            <div class="col text-white text-left">
                 <p>
                     <br>
                     Mettler Marc, Gulart Maia Manuela, Msaada Sinda, Charroin François
