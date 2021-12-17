@@ -87,6 +87,37 @@ BLABLABLA LES OISEAUX SONT BEAUX
 
 # PARTIE MANU :  What can be said about the number behind the quotations ?
 
+<table style="width:100%">
+<caption>p-value for the covid emotions for both newspapers
+</caption>
+  <tr>
+    <th></th>
+    <th>p-value</th>
+  </tr>
+  <tr>
+    <td>Fear</td>
+    <td>0.496</td>
+  </tr>
+  <tr>
+    <td>Happy</td>
+    <td>0.105</td>
+  </tr>  
+  <tr>
+  <td>Angry</td>
+  <td>0.277</td>
+</tr>
+<tr>
+  <td>Surprise</td>
+  <td>0</td>
+</tr>
+   
+<tr>
+<td>Sad</td>
+<td>0.231</td>
+</tr>
+
+</table>
+
 ## WORDS ????
 
 We selected some words that we thought they can differentiate democrats and republicans and we analyze their frequency of apparencies in the Quotebank. We notice that even though the number of quotations from the New York Times in the Quotebank dataset is larger than the one from Fox News <b> (mettre NUMBER !!!!!!!!!!!!!) </b>, the later has more quotations about those topics than the other one, except for climate change where their occurrences are similar. From this we can maybe elaborate a first hypothesis that Fox News gives a higher importance to sensitive topics. 
