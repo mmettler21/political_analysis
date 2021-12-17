@@ -27,8 +27,6 @@ Concerning the reading of the data, our first approach was to read the dataset u
 Consequently, an alternative was proposed : the approach was to use only one chunk per pickle by reading the files of each year and combining them together. Then, we were able to generate a dataframe for each newspaper we were interested in, which whole quotations between 2015 and 2020.  
 
 
-# What can be said about the number behind the quotations ?
-
 # Topic Detection
 
 ## New York Times
@@ -87,7 +85,7 @@ BLABLABLABLABLABLABLABLABLABLBALABLABLABLABLAB
 BLABLABLA LES OISEAUX SONT BEAUX
 
 
-# PARTIE MANU
+# PARTIE MANU :  What can be said about the number behind the quotations ?
 
 ## WORDS ????
 
