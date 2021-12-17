@@ -52,7 +52,7 @@ BLABLABLABLABLABLABLABLABLABLBALABLABLABLABLAB
    </center> 
 </body> 
 
-<iframe src="static/LDAvis_prepared_NY_3topics.html" style="width: 1000px; height: 400px; border: 0px"></iframe>
+<iframe src="static/LDAvis_prepared_NY_3topics.html" style="width: 1200px; height: 700px; border: 0px"></iframe>
 
 
 ## Fox News
@@ -65,7 +65,7 @@ BLABLABLABLABLABLABLABLABLABLBALABLABLABLABLAB
 </body> 
 
 <p align="center">
-  <img width="600" src="static/c_v_score_NYtimes.png">
+  <img width="600" src="static/c_v_score_Fox.png">
 </p>
 
 BLABLABLABLABLABLABLABLABLABLBALABLABLABLABLAB
@@ -78,7 +78,7 @@ BLABLABLABLABLABLABLABLABLABLBALABLABLABLABLAB
    </center> 
 </body> 
 
-<iframe src="static/LDAvis_prepared_NY_3topics.html" style="width: 1000px; height: 400px; border: 0px"></iframe>
+<iframe src="static/LDAvis_prepared_Fox_9topics.html" style="width: 1200px; height: 700px; border: 0px"></iframe>
 
 ## Comparison between topics for the New York Times and Fox News
 
