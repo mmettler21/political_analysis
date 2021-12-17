@@ -183,7 +183,7 @@ The distribution of active users by time of day and day of the week <b>does not 
 Bla Bla Bla
 
 <br>
-<footer style="background-color: #d32f2f">
+<footer style="background-color: #d32f2f;color:white;>
     <div class="container">
         <div class="row ">
             <div class="col text-white text-center">
