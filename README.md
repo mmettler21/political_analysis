@@ -385,6 +385,7 @@ ADA, EPFL, December 2021
 <a href="https://github.com/chibicode">Shu Uesugi</a>
 Title image 
 <a href="https://github.com/chibicode/duo">duo</a>
+<br>
 Title image : [Pew Research Center, consulted the 17.12.2021](https://www.pewresearch.org/fact-tank/2021/11/22/both-republicans-and-democrats-prioritize-family-but-they-differ-over-other-sources-of-meaning-in-life/)
 
 
