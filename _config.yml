@@ -6,7 +6,7 @@ title: Are you a Democrat or a Republican newspapers reader ?
 
 # Where the page will be deployed.
 # If it's https://foo.com/bar, just write "https://foo.com"
-url: "https://mmettler21.github.io/"
+url: "https://mmettler21.github.io"
 
 # If you're deployging to a subdirectory (https://foo.com/bar/)
 # Then write "/bar/". Otherwise, remove this line.
@@ -68,4 +68,3 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-readme-index
-  - jekyll-tabs
