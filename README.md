@@ -88,8 +88,6 @@ BLABLABLA LES OISEAUX SONT BEAUX
 # PARTIE MANU :  What can be said about the number behind the quotations ?
 
 <table style="width:100%">
-<caption>p-value for the covid emotions for both newspapers
-</caption>
   <tr>
     <th></th>
     <th>p-value</th>
@@ -115,6 +113,48 @@ BLABLABLA LES OISEAUX SONT BEAUX
 <td>Sad</td>
 <td>0.231</td>
 </tr>
+   
+<caption>p-value for the covid emotions for both newspapers
+</caption>
+   
+   
+
+</table>
+
+<table style="width:100%">
+  <tr>
+    <th></th>
+    <th>p-value</th>
+  </tr>
+  <tr>
+    <td>Immigration</td>
+    <td>0.000000e+00</td>
+  </tr>
+  <tr>
+    <td>Terrorism</td>
+    <td>0.000000e+00</td>
+  </tr>  
+  <tr>
+  <td>Climate change</td>
+  <td>2.331170e-01</td>
+</tr>
+<tr>
+  <td>Abortion</td>
+  <td>4.609667e-67</td>
+</tr>
+   
+<tr>
+<td>Religion</td>
+<td>0.000000e+00</td>
+</tr>
+   
+<tr>
+ <td>Racism</td>
+ <td>8.309947e-51</td>
+</tr>
+   
+<caption>p-value for the covid emotions for both newspapers
+</caption>
 
 </table>
 
