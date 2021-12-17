@@ -131,7 +131,7 @@ Six subjects were analysed: immigration, terrorism, climate change, abortion, re
 
 <body> 
 <center> 
-<h3> Comparison of emotions about immigration between Foxnews and the NY times with text2emotion </h3>
+   <h3> Comparison of emotions about <b> immigration </b> between Foxnews and the NY times with text2emotion </h3>
    <div id="includedContent1"></div>
    </center> 
 </body> 
@@ -144,7 +144,7 @@ For climate change Foxnews was a lot more negative. The abortion and racism subj
 
 <body> 
 <center> 
-<h3> Comparison of positive and negative sentiments about climate change between Foxnews and the NY times with NLTK </h3>
+<h3> Comparison of positive and negative sentiments about <b> climate change </b> between Foxnews and the NY times with NLTK </h3>
    <div id="includedContent1"></div>
    </center> 
 </body> 
