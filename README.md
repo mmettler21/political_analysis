@@ -9,7 +9,7 @@ Donald Trump banned from twitter; this sentence should be familiar to you. In th
 
 To point out some interesting facts about these quotations, we have decided that we are going to focus on three main reading axes. Before doing this, the key step is <b> to read the entire dataset </b>. Once this has been done, we can then <b> much easily play with our data </b> ! Then, we decided to make <b> comparisons </b> between newspapers affiliated with <b> Democrats or Republicans </b>, and to see if there is an affiliation between the quotations reported in the newspapers and their political positioning. Since there are plenty of different newspaper, we decided <b> to focus initially on only two newspapers </b>, whose political views are well known. For doing comparisons between two newspapers, the objective is to analyze which <b> parameters </b> allow to make a difference between them. 
 
-The three <b> parameters </b> we picked out are <b> topic detection, speakers, and sentiment analysis </b>. Once we analyze the quotations of two newspapers with those guidelines, the next step is apply the parameters whose give a signifcant results to other journals. That in order to produce a clear framework that would allow to compare newspapers and state their political affiliation.
+The three <b> parameters </b> we picked out are <b> topic detection, speakers, and sentiment analysis </b>. Once we analyze the quotations of two newspapers with those guidelines, the next step is to apply the parameters which give a signifcant results to other journals. That in order to produce a clear framework that would allow to compare newspapers and state their political affiliation.
 
 # Methods
 
@@ -170,7 +170,7 @@ Democrat is a salient word for NY while Republicans is one for Fox.
 
 ## Quotes counting
 
-A part of the story told by our data is taken from the study of two newspapers, the New York Times and Fox news, from which the occurrences of quotations made by each newspaper was analysed. <br>
+In this section, we are going to focus on the occurrences of quotations in each newspaper. <br>
 To begging with, the data showed that the New York Times had more quotations available in the Quotebank dataset than Fox news. The number of quotations found for the New York Times was of 894838 quotes compared to 708383 for Fox News. <br>
 Then, by searching for some topics where it is known republicans and democrats have opposing opinions, the occurrences of certain topic-related quotations were analysed for each newspaper. <br>
 This choice of quotations was done thanks to a selection of words that usually are employed when talking about the chosen topics. Besides, each word was mapped to the same, normalized form, by stripping affixes (words stemming) whenever possible. This allowed to cover a higher range of quotations that could be related to the chosen topics of immigration, terrorism, climate change, abortion, religion, racism. <br>
