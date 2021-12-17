@@ -168,7 +168,7 @@ It seems here once again, that Fox News prefers to talk more about those topics 
 ## Year analysis
 
 Then, we took another direction, and we plotted the topic related quotations for each journal by year. The results are shown in the plot below. <br>
-As before, one can see that except for climate change, Fox News quotes more the chosen topics. Furthermore, even if the peaks for Fox News are higher than the ones from New York Times, it can be noticed that the peaks coincide. This means that probably an important event happened at that time and both newspapers wrote about it. <br>
+As before, one can see that except for <b> climate change </b>, Fox News quotes more the chosen topics. Furthermore, even if the peaks for Fox News are higher than the ones from New York Times, it can be noticed that the peaks coincide. This means that probably an important event happened at that time and both newspapers wrote about it. <br>
 The increase in Fox News quotations about immigration seem to happen during the period where Donald Trump was president and decided to construct the wall between the US and Mexico, with a decrease in 2019 when Biden took the presidency. The peak of quotes for abortion in 2019 is maybe due to the House Bill 314 and the Alabama abortion ban that happened on May 15, 2019, which imposed a near-total ban on abortion in the state starting in November 2019. Moreover, the peaks are usually much higher for Fox News compared to NYT, for example when looking at immigration or abortion graphs. Another evidence shown by these plots is that the differences in quotations talking about terrorism and religion between both media are one of the greatest and are almost constant.
 
 
@@ -217,9 +217,18 @@ Knowing the political affiliation of each, we tried to see if the New York Times
 
 
 
-Similarly, to the previous part, an analysis by year for some key politicians for each journal has been made. The increase in quotations about Biden are easy to explain since he became a candidate for the elections. For Hilary, Fox News seem to follow the elections, its quotations from Hilary are increasing until the 2016 elections, then going downs as Hilary has failed and then comes up again with the 2019 elections. On the opposite, NYT quotes Hilary increasingly since 2015. The number of quotes seem very much correlated to punctual events during the years especially for Fox News, the latter also seem to be more extreme and to always cite more the politicians in comparison to NYT. 
+Similarly, to the previous part, an analysis by year for some key politicians for each journal has been made. The increase in quotations about Biden are easy to explain since he became a candidate for the elections. The number of quotes seem very much correlated to punctual events during the years especially for Fox News, the latter also seem to be more extreme and to always cite more the politicians in comparison to NYT. 
 
-PLOT DES ANNEES
+<body> 
+<center> 
+<h3> Speakers over the years </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<p align="center">
+  <img width="600" src="static/politic_year_corrected.png">
+</p>
 
 In the following part, a further depth into the data is carried out to understand the sentiment behind the respective quotations by each newspaper. 
 
@@ -313,6 +322,37 @@ Citations mentioning covid are much more cited by Fox News compared to NYT. Inde
 <p align="center">
   <img width="600" src="static/covid.png">
 </p>
+
+<table style="width:100%">
+  <tr>
+    <th></th>
+    <th>p-value</th>
+  </tr>
+  <tr>
+    <td>Fear</td>
+    <td>0.496</td>
+  </tr>
+  <tr>
+    <td>Happy</td>
+    <td>0.105</td>
+  </tr>  
+  <tr>
+  <td>Angry</td>
+  <td>0.277</td>
+</tr>
+<tr>
+  <td>Surprise</td>
+  <td>0</td>
+</tr>
+   
+<tr>
+<td>Sad</td>
+<td>0.231</td>
+</tr>
+   
+<caption>Covid emotions p-value for both newspapers
+</caption>
+</table>
 
 ## Washington Post
 
