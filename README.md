@@ -370,9 +370,9 @@ Bla Bla Bla
 
 
 <ul>
-  <li><b>Mettler Marc, Goulart Maia Manuela, M'Saada Sinda, Charroin François, December 2021</li>
+  <li><b>Mettler Marc, Goulart Maia Manuela, M'Saada Sinda, Charroin François</b></li>
   <li>EPFL - ADA 2021 - December 2021</li>
-  <li>[GitHub Repository](https://github.com/epfl-ada/ada-2021-project-therealabracadabra) </li>
+  <li>Our [GitHub Repository](https://github.com/epfl-ada/ada-2021-project-therealabracadabra) </li>
   <li>[Website Repository](https://github.com/mmettler21/political_analysis) </li>
   <li>[Theme duo](https://github.com/chibicode/duo), by [Shu Uesugi](https://github.com/chibicode) </li>
   <li>[GitHub Repository](https://github.com/epfl-ada/ada-2021-project-therealabracadabra) </li>
