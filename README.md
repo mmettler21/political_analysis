@@ -114,7 +114,7 @@ Fox News has in general more quotations about the selected topic. This behavior 
 
 <body> 
 <center> 
-<h3> Pourcentage of quotations by topic and newspapers </h3>
+<h3> Percentage of quotations by topic and newspapers </h3>
    <div id="includedContent1"></div>
    </center> 
 </body> 
@@ -157,7 +157,7 @@ Additionally, the t-test for each subject only gives a p-value higher than the s
  <td>8.309947e-51</td>
 </tr>
    
-<caption>p-value for the key parameters for both newspapers
+<caption>Key parameters p-value for both newspapers
 </caption>
 
 </table>
