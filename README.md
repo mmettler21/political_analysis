@@ -4,10 +4,10 @@
 
 ## Abstract
 
-Donald Trump banned from twitter; this sentence should be familiar to you. In the last ten years, there has been an explosion of polemical phrases of all kinds. Most of the well-known newspapers have picked up these quotations and put them in their columns, and not only from Twitter... Thanks to the framework *Quobert*, developed by Robert West and others, we have a dataset of millions of quotations on hand coming from different newspapers between 2015 to 2020. The <b> million-dollar </b> question was the next one, what can we proceed with such a dataset?
+Donald Trump banned from twitter; this sentence should be familiar to you. In the last ten years, there has been an explosion of polemical sentences of all kinds. Most of the well-known newspapers have picked up these quotations and put them in their columns, and not only from Twitter... Thanks to the framework *Quobert*, developed by Robert West and others, we have a dataset of millions of quotations on hand coming from different newspapers between 2015 to 2020. The <b> million-dollar </b> question was the next one, what can we proceed with such a dataset?
 
 
-To point out some interesting facts about these quotations, we have decided that we are going to focus on three main reading axes. Before doing this, the key step is <b> to read the entire dataset </b>. Once this has been done, we can then <b> much easily play with our data </b> ! Then, we decided to make <b> comparisons </b> between newspapers affiliated with <b> Democrats or Republicans </b>, and to see if there is an affiliation between the quotations reported in the newspapers and their political positioning. Since there are plenty of different newspaper, we decided <b> to focus initially on only two newspapers </b>, whose political views are well known. For doing comparisons between two newspapers, the objective is to analyze which <b> parameters </b> allow to make a difference between them. 
+To point out some interesting facts about these quotations, we have decided to focus on three main reading axes. Before doing this, the key step is <b> to read the entire dataset </b>. Once this has been done, we can then <b> much easily play with our data </b> ! Then, we decided to make <b> comparisons </b> between newspapers affiliated with <b> Democrats or Republicans </b>, and to see if there is an affiliation between the quotations reported in the newspapers and their political positioning. Since there are plenty of different newspaper, we decided <b> to focus initially on only two newspapers </b>, whose political views are well known. For doing comparisons between two newspapers, the objective is to analyze which <b> parameters </b> allow to make a difference between them. 
 
 The three <b> parameters </b> we picked out are <b> topic detection, speakers, and sentiment analysis </b>. Once we analyze the quotations of two newspapers with those guidelines, the next step is to apply the parameters which give a signifcant results to other journals. That in order to produce a clear framework that would allow to compare newspapers and state their political affiliation.
 
@@ -15,16 +15,10 @@ The three <b> parameters </b> we picked out are <b> topic detection, speakers, a
 
 ## Choice of the two reference newspapers
 
-First, the choice of the two newspapers we will work with is crucial. Some journals have “centered” opinions or shaded positioning. That is why, the <b> focus </b> will be made on <b> polarized newspapers </b>, which will make it easier to study and define the parameters. For our study, two newspaper have been chosen: Foxnews and New York Times. Both are polarized, Foxnews is in favor of more conservative political positions and is mainly viewed by Republican partisans while New York Times is more left-leaning and followed mainly by Democrats (figure below, [Statista, consulted the 15.11.2021](https://www.statista.com/chart/21328/party-affiliation-by-news-source/)). Note that the data showed that the New York Times had more quotations available in the Quotebank dataset than Fox news. The number of quotations found for the New York Times was of 894,838 quotes compared to 708,383 for Fox News.
+First, the choice of the two newspapers we work with is crucial. Some journals have “centered” opinions or shaded positioning. That is why, the <b> focus </b> is made on <b> polarized newspapers </b>, which makes it easier to study and define the parameters. For our study, two newspaper have been chosen: <b>Foxnews and New York Times (NYT)</b>. Both are polarized, Foxnews is in favor of more conservative political positions and is mainly viewed by Republican partisans while New York Times is more left-leaning and followed mainly by Democrats (figure below, [Statista, consulted the 15.11.2021](https://www.statista.com/chart/21328/party-affiliation-by-news-source/)). Note that the data showed that the New York Times had more quotations available in the Quotebank dataset than Fox news. The number of quotations found for the New York Times was of 894,838 quotes compared to 708,383 for Fox News.
 
 
 <a href="https://www.statista.com/chart/21328/party-affiliation-by-news-source/" title="Infographic: Party Affiliation Defines News Sources | Statista"><img src="https://cdn.statcdn.com/Infographic/images/normal/21328.jpeg" alt="Infographic: Party Affiliation Defines News Sources | Statista" width="50%" height="auto" align="center" style="width: 50%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a>
-
-## Wrangling and reading the dataset
-
-
-Concerning the reading of the data, our first approach was to read the dataset using chunks and then to generate a single pickle file from these chunks. The problem was that reading the chunks one after the other from the pickle file generated an extremely heavy file (the operation was stopped when the file size exceeded 150 Gigabytes!). 
-Consequently, an alternative was proposed : the approach was to use only one chunk per pickle by reading the files of each year and combining them together. Then, we were able to generate a dataframe for each newspaper we were interested in, which whole quotations between 2015 and 2020.  
 
 
 # Topic Detection
@@ -32,12 +26,12 @@ Consequently, an alternative was proposed : the approach was to use only one chu
 ## Number of topics for each journal
 
 
-Latent Dirichlet Allocation (LDA) is an unsupervised method which allow to create magically topics composed of specific words.
-One has to specify the number of topics. To do so, the ideal number of topics for the newspaper has to be specified. We calculated the coherence score for different number of topics (from 2 to 10), the plots show the results. Then we have taken the number which corresponds to the highest score and we have plot the topics using PyLDAvis.
+Latent Dirichlet Allocation (LDA) is an unsupervised method which allow to create <b>magically topics</b> composed of specific words.
+One has to <b>specify the number of topics</b>. To do so, the ideal number of topics for the newspaper has to be specified. We calculated the <b>coherence score</b> for different number of topics (from 2 to 10), the plots show the results. Then we have taken the number which corresponds to the highest score and we have plot the topics using PyLDAvis.
 
 <body> 
 <center> 
-<h3> Determination of the number of topics for the <b> New York Times </b> </h3>
+<h3> Determination of the number of topics for <b> New York Times </b> </h3>
    <div id="includedContent1"></div>
    </center> 
 </body> 
@@ -60,7 +54,7 @@ One has to specify the number of topics. To do so, the ideal number of topics fo
 
 Some observations can be made :
 <ul>
-  <li>The Coherence C_V predicts 3 topics for the New York Times and 9 topics for Fox news.</li>
+  <li>The Coherence C_V gives the highest score for 3 topics for New York Times and 9 topics for Fox news.</li>
 <li> Whereas for Fox News, an increasing tendency is noticed, for New York times, the optimal number of topics is low and equals 3. One could think that Fox News speaks more about different subjects. But another analysis would be that actually New York times treats more about various subjects so it is hard to put them into several topics as there is a lot of them and it is hard to separate the words into clear topics.
  </li>
 </ul>
@@ -70,7 +64,7 @@ Some observations can be made :
 
 <body> 
 <center> 
-<h3> Topic Detection for the New York Times </h3>
+<h3> Topic Detection for the <b>New York Times</b> </h3>
    <div id="includedContent1"></div>
    </center> 
 </body> 
@@ -163,7 +157,7 @@ Additionally, the t-test for each subject only gives a p-value higher than the s
 </table>
 
 
-It seems here once again, that Fox News prefers to talk more about those topics that the New York Times, which consolidates the hypothesis elaborated in the topic detection section of this data story. Here, this could be maybe explained by the fact that the New York Times has other priorities than this sensitive themes. 
+It seems here once again, that Fox News prefers to talk more about those topics than the New York Times, which consolidates the hypothesis elaborated in the topic detection section of this data story. Here, this could be maybe explained by the fact that the New York Times has other priorities than this sensitive themes. 
 
 ## Year analysis
 
@@ -236,7 +230,7 @@ In the following part, a further depth into the data is carried out to understan
 
 # Sentiment analysis
 
-The sentiment analysis between the two journals has been done thanks to two libraries: NLTK and text2emotion. For the first one the function “SentimentIntensityAnalyzer” has been use, it helps determined if the sentiments of a text are positive or negative. On the other hand, text2emotion capture the intensity of these 5 emotions: fear, happiness, anger, surprise and sadness. <br>
+The sentiment analysis between the two journals has been done thanks to two libraries: NLTK and text2emotion. For the first one the function “SentimentIntensityAnalyzer” has been use, it helps determined if the sentiments of a text are positive or negative. On the other hand, text2emotion capture the intensity of these 5 emotions: *fear*, *happiness*, *anger*, *surprise* and *sadness*. <br>
 The dataset has been analysed in two forms: all the quotes by the NY times and Foxnews year by year, and the quotes from these two journals on certain subjects.
 
 ## Year by year analysis:
@@ -255,7 +249,7 @@ This analysis showed some consistency as each year (except for 2015), the quotes
   <img width="600" src="static/SA_f1.png">
 </p>
 
-For the emotions, text2emotion function found that the quotations from Foxnews had more surprise and sadness than those from the New York Times (the two bar plots below illustrate this tendence). The fear emotion is about equal for all years between the two journals except for 2015 and 2020 where the quotes from Foxnews have more of this emotion.
+For the emotions, text2emotion function found that the quotations from Foxnews had more *surprise* and *sadness* than those from the New York Times (the two bar plots below illustrate this tendence). The fear emotion is about equal for all years between the two journals except for 2015 and 2020 where the quotes from Foxnews have more of this emotion.
 
 <body> 
 <center> 
@@ -281,8 +275,8 @@ For the emotions, text2emotion function found that the quotations from Foxnews h
 
 ## By subject analysis:
 
-As said before, six subjects were analysed. The ones that showed the most differences between the two newspapers are immigration, terrorism, and racism, looking at positive and negative sentiment values from NLTK. The key parameters surprise, fear and sadness had also low p-values when comparing the distribution of the values for the two journals (for instance, for the surprise emotion on the racism subject, we got a p-value of 1.712e-14). <br>
-For the subject climate change, Foxnews was a lot more negative (p-value of 1.813e-08) than the New York Times. For abortion and religion did not show big differences. What can be noted is the impact of the subject on the values of the emotions.
+As said before, six subjects were analysed. The ones that showed the most differences between the two newspapers are *immigration, terrorism*, and *racism*, looking at positive and negative sentiment values from NLTK. The key parameters *surprise*, *fear* and *sadness* had also low p-values when comparing the distribution of the values for the two journals (for instance, for the surprise emotion on the racism subject, we got a p-value of 1.712e-14). <br>
+For the subject <b>climate change</b>, Foxnews was a lot more negative (p-value of 1.813e-08) than the New York Times. For *abortion* and *religion* did not show big differences. What can be noted is the impact of the subject on the values of the emotions.
 
 
 <body> 
