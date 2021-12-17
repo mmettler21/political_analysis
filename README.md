@@ -15,7 +15,7 @@ The three <b> parameters </b> we picked out are <b> topic detection, speakers, a
 
 ## Choice of the two reference newspapers
 
-First, the choice of the two newspapers we will work with is crucial. Some journals have “centered” opinions or shaded positioning. That is why, the focus will be made on polarized newspapers, which will make it easier to study and define the parameters. For our study, two newspaper have been chosen: Foxnews and New York Times. Both are polarized, Foxnews is in favor of more conservative political positions and is mainly viewed by Republican partisans while New York Times is more left-leaning and followed mainly by Democrats (figure below, [Statista, consulted the 15.11.2021](https://www.statista.com/chart/21328/party-affiliation-by-news-source/)). Note that the data showed that the New York Times had more quotations available in the Quotebank dataset than Fox news. The number of quotations found for the New York Times was of 894,838 quotes compared to 708,383 for Fox News.
+First, the choice of the two newspapers we will work with is crucial. Some journals have “centered” opinions or shaded positioning. That is why, the <b> focus </b> will be made on <b> polarized newspapers </b>, which will make it easier to study and define the parameters. For our study, two newspaper have been chosen: Foxnews and New York Times. Both are polarized, Foxnews is in favor of more conservative political positions and is mainly viewed by Republican partisans while New York Times is more left-leaning and followed mainly by Democrats (figure below, [Statista, consulted the 15.11.2021](https://www.statista.com/chart/21328/party-affiliation-by-news-source/)). Note that the data showed that the New York Times had more quotations available in the Quotebank dataset than Fox news. The number of quotations found for the New York Times was of 894,838 quotes compared to 708,383 for Fox News.
 
 
 <a href="https://www.statista.com/chart/21328/party-affiliation-by-news-source/" title="Infographic: Party Affiliation Defines News Sources | Statista"><img src="https://cdn.statcdn.com/Infographic/images/normal/21328.jpeg" alt="Infographic: Party Affiliation Defines News Sources | Statista" width="50%" height="auto" align="center" style="width: 50%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a>
@@ -101,7 +101,7 @@ It's now your turn to play with the data with a click on the cycle you want to m
 
 
 
-# What can be said about the number behind the quotations ?
+# What can be said about the numbers behind the quotations ?
 
 
 ## Quotes counting
@@ -217,7 +217,7 @@ Knowing the political affiliation of each, we tried to see if the New York Times
 
 
 
-Similarly, to the previous part, an analysis by year for some key politicians for each journal has been made. The increase in quotations about Biden are easy to explain since he became a candidate for the elections. The number of quotes seem very much correlated to punctual events during the years especially for Fox News, the latter also seem to be more extreme and to always cite more the politicians in comparison to NYT. 
+Similarly, to the previous part, an analysis by year for some key politicians for each journal has been made. The increase in quotations about Biden are easy to explain since he became a candidate for the elections. The number of quotes seem to be very much correlated to punctual events during the years. Fox News seems also to be more extreme and to always cite more the politicians in comparison to New York Times. 
 
 <body> 
 <center> 
