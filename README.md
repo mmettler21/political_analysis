@@ -15,7 +15,7 @@ The three <b> parameters </b> we picked out are <b> topic detection, speakers, a
 
 ## Choice of the two reference newspapers
 
-First, the choice of the two newspapers we will work with is crucial. Some journals have “centered” opinions or shaded positioning. That is why, the focus will be made on polarized newspapers, which will make it easier to study and define the parameters. For our study, two newspaper have been chosen: Foxnews and New York Times. Both are polarized, Foxnews is in favor of more conservative political positions and is mainly viewed by Republican partisans while New York Times is more left-leaning and followed mainly by Democrats (figure below, [Statista, consulted the 15.11.2021](https://www.statista.com/chart/21328/party-affiliation-by-news-source/)).
+First, the choice of the two newspapers we will work with is crucial. Some journals have “centered” opinions or shaded positioning. That is why, the focus will be made on polarized newspapers, which will make it easier to study and define the parameters. For our study, two newspaper have been chosen: Foxnews and New York Times. Both are polarized, Foxnews is in favor of more conservative political positions and is mainly viewed by Republican partisans while New York Times is more left-leaning and followed mainly by Democrats (figure below, [Statista, consulted the 15.11.2021](https://www.statista.com/chart/21328/party-affiliation-by-news-source/)). Note that the data showed that the New York Times had more quotations available in the Quotebank dataset than Fox news. The number of quotations found for the New York Times was of 894,838 quotes compared to 708,383 for Fox News.
 
 
 <a href="https://www.statista.com/chart/21328/party-affiliation-by-news-source/" title="Infographic: Party Affiliation Defines News Sources | Statista"><img src="https://cdn.statcdn.com/Infographic/images/normal/21328.jpeg" alt="Infographic: Party Affiliation Defines News Sources | Statista" width="50%" height="auto" align="center" style="width: 50%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a>
@@ -86,6 +86,8 @@ Some observations can be made :
 
 <iframe src="static/LDAvis_prepared_Fox_9topics.html" style="width: 1200px; height: 700px; border: 0px"></iframe>
 
+From now on, as shown in the two graphs, we will focus exclusively on 3 themes for New York Times and 9 for Fox News and proceed to an LDA. <br>
+
 ## Comparison between topics for the New York Times and Fox News
 
 Looking at the Topic Detection by LDA for both newspapers, the following can be observed:
@@ -95,7 +97,7 @@ Looking at the Topic Detection by LDA for both newspapers, the following can be 
  </li>
 </ul>
 
-It's now your turn to play with the data with a click on the cycle you want to make appear the detected topics. With only a small coefficient of coherence, this result should be taken with caution (the C_V is only around 0.2 and 0.3).
+It's now your turn to play with the data with a click on the cycle you want to make appear the detected topics! With only a small coefficient of coherence, this result should be taken with caution (the C_V is only around 0.2 and 0.3).
 
 
 
@@ -136,7 +138,7 @@ It's now your turn to play with the data with a click on the cycle you want to m
 ## Quotes counting
 
 In this section, we are going to focus on the occurrences of quotations in each newspaper. <br>
-To begging with, the data showed that the New York Times had more quotations available in the Quotebank dataset than Fox news. The number of quotations found for the New York Times was of 894,838 quotes compared to 708,383 for Fox News. <br>
+To begging with and as said in the introduction, the data showed that the New York Times had more quotations available in the Quotebank dataset than Fox news. <br>
 Then, by searching for some topics where it is known republicans and democrats have opposing opinions, the occurrences of certain topic-related quotations were analysed for each newspaper. <br>
 This choice of quotations was done thanks to a selection of words that usually are employed when talking about the chosen topics. Besides, each word was mapped to the same, normalized form, by stripping affixes (words stemming) whenever possible. This allowed to cover a higher range of quotations that could be related to the chosen topics of immigration, terrorism, climate change, abortion, religion, racism. <br>
 The first thing that could be noticed is that even though the number of quotations from the New York Times in the Quotebank dataset is larger than the one from Fox News, the later has, in general, more quotations about the selected topic. This behavior was observed for all topics, except for climate change where their normalized occurrences were similar (as shown in the plot below). Here the normalization was done by dividing the number of quotations obtained, for each topic and each newspaper, by the total number of quotations of each newspaper. The percentage of immigration related quotes cited by the New York Times related to the total amount of quotes the New York Times cites is then, for example, obtained and can be compared to the corresponding quotes percentage from Fox News. 
