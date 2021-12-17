@@ -369,15 +369,6 @@ The distribution of active users by time of day and day of the week <b>does not 
 Bla Bla Bla
 
 
-<ul>
-  <li><b>Mettler Marc, Goulart Maia Manuela, M'Saada Sinda, Charroin François</b></li>
-  <li>EPFL - ADA 2021 - December 2021</li>
-  <li>Our [GitHub Repository]('https://github.com/epfl-ada/ada-2021-project-therealabracadabra') </li>
-  <li>["Website Repository"](https://github.com/mmettler21/political_analysis) </li>
-  <li>[Theme duo](https://github.com/chibicode/duo), by [Shu Uesugi](https://github.com/chibicode) </li>
-  <li>[GitHub Repository](https://github.com/epfl-ada/ada-2021-project-therealabracadabra) </li>
-</ul>
-
 
 
 <b> Mettler Marc, Goulart Maia Manuela, M'Saada Sinda, Charroin François </b>
@@ -392,6 +383,9 @@ ADA, EPFL, December 2021
 <a href="https://github.com/chibicode/duo">duo</a>
 <b>by </b>
 <a href="https://github.com/chibicode">Shu Uesugi</a>
+Title image 
+<a href="https://github.com/chibicode/duo">duo</a>
+Title image : [Pew Research Center, consulted the 17.12.2021](https://www.pewresearch.org/fact-tank/2021/11/22/both-republicans-and-democrats-prioritize-family-but-they-differ-over-other-sources-of-meaning-in-life/)
 
 
 
