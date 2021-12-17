@@ -37,7 +37,7 @@ One has to specify the number of topics. To do so, the ideal number of topics fo
 
 <body> 
 <center> 
-<h3> Determination of the number of topics for the New York Times </h3>
+<h3> Determination of the number of topics for the <b> New York Times </b> </h3>
    <div id="includedContent1"></div>
    </center> 
 </body> 
@@ -49,7 +49,7 @@ One has to specify the number of topics. To do so, the ideal number of topics fo
 
 <body> 
 <center> 
-<h3> Determination of the number of topics for Fox News </h3>
+<h3> Determination of the number of topics for <b> Fox News </b> </h3>
    <div id="includedContent1"></div>
    </center> 
 </body> 
@@ -88,11 +88,15 @@ Some observations can be made :
 
 ## Comparison between topics for the New York Times and Fox News
 
-Topic detection plots LDA:
-Most salient words:
-For NY times it is mostly democrat terms/ neutral terms: 
-Fox News: republicans, border, anti, god, white
-Democrat is a salient word for NY while Republicans is one for Fox.
+Looking at the Topic Detection by LDA for both newspapers, the following can be observed:
+<ul>
+  <li>For the New York Times, the most salient words without definiting a topic are related to democrat or neutral terms (i.g. Biden, Democrats, Hillary, impeachment,....) </li>
+<li> Whereas for Fox News, the most salient words without definiting a topic are related to republican (expcept for the first one, Biden) or connotated words (border, anti, crime,...)
+ </li>
+</ul>
+
+It's now your turn to play with the data with a click on the cycle you want to make appear the detected topics. With only a small coefficient of coherence, this result should be taken with caution (the C_V is only around 0.2 and 0.3).
+
 
 
 # What can be said about the number behind the quotations ?
