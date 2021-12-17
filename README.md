@@ -86,7 +86,7 @@ From now on, as shown in the two graphs, we will focus exclusively on 3 themes f
 
 Looking at the Topic Detection by LDA for both newspapers, the following can be observed:
 <ul>
-  <li>For the New York Times, the most salient words without defining a topic are related to democrat or neutral terms (i.g. Biden, Democrats, Hillary, impeachment,....) </li>
+  <li>For <b>New York Times</b>, the most salient words without defining a topic are related to democrat or neutral terms (i.g. Biden, Democrats, Hillary, impeachment,....) </li>
 <li> Whereas for Fox News, the most salient words without defining a topic are related to republican (except for the first one, Biden) or connotated words (border, anti, crime,...)
  </li>
 </ul>
@@ -193,7 +193,7 @@ As a second part of this analysis, we focused on the speakers:
 This plot shows the most cited politicians for both newspapers and shows that Donald Trump is by far the most quoted one, since his histogram bean is still higher than the others, even with a logarithmic scale. 
  
 
-### Republicans or Democrats speakers ?
+## Republicans or Democrats speakers ?
 
 Knowing the political affiliation of each, we tried to see if the New York Times would cite in the top 10 more Democrats while Fox News more Republicans. But in reality, NYT have more Republicans in its top 10 speakers while Fox News has more Democrats. This can be showed with the plot below :
 
@@ -314,7 +314,7 @@ Quotes mentioning covid are much more cited by Fox News compared to NYT. Indeed,
 </body> 
 
 <p align="center">
-  <img width="600" src="static/covid.png">
+  <img width="600" src="static/covid2.png">
 </p>
 
 <table style="width:100%">
