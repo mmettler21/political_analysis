@@ -214,7 +214,7 @@ ADA, EPFL, December 2021
             <div class="col text-white text-center">
                 <p>
                     <br>
-                    Mettler Marc, Gulart Maia Manuela, Msaada Sinda, Charroin François
+                    Mettler Marc, Gulart Maia Manuela, Msaada Sinda, Charroin  François
                     <br>
                     <button id="ada"><b>ADA</b></button>, EPFL, December 2021
                     <br>
@@ -231,7 +231,6 @@ ADA, EPFL, December 2021
             </div>
         </div>
     </div>
-</footer>
 
 <a href="https://github.com/epfl-ada/ada-2021-project-therealabracadabra" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
