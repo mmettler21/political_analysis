@@ -41,7 +41,7 @@ Consequently, an alternative was proposed : the approach was to use only one chu
 </body> 
 
 <p align="center">
-  <img width="600" src="static/c_v_score_NYtimes.png.png">
+  <img width="600" src="static/c_v_score_NYtimes.png">
 </p>
 
 BLABLABLABLABLABLABLABLABLABLBALABLABLABLABLAB
@@ -67,7 +67,7 @@ BLABLABLABLABLABLABLABLABLABLBALABLABLABLABLAB
 </body> 
 
 <p align="center">
-  <img width="600" src="static/c_v_score_NYtimes.png.png">
+  <img width="600" src="static/c_v_score_NYtimes.png">
 </p>
 
 BLABLABLABLABLABLABLABLABLABLBALABLABLABLABLAB
