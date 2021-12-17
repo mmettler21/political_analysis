@@ -157,7 +157,7 @@ Additionally, the t-test for each subject only gives a p-value higher than the s
 </table>
 
 
-It seems here once again, that Fox News prefers to talk more about those topics than the New York Times, which consolidates the hypothesis elaborated in the topic detection section of this data story. Here, this could be maybe explained by the fact that the New York Times has other priorities than this sensitive themes. 
+It seems here once again, that Fox News prefers to talk more about those topics than the New York Times, which consolidates the hypothesis elaborated in the topic detection section of this data story. Here, this could be maybe explained by the fact that the New York Times talks about a broader number of topics . 
 
 ## Year analysis
 
@@ -276,7 +276,7 @@ For the emotions, text2emotion function found that the quotations from Foxnews h
 ## By subject analysis:
 
 As said before, six subjects were analysed. The ones that showed the most differences between the two newspapers are *immigration, terrorism*, and *racism*, looking at positive and negative sentiment values from NLTK. The key parameters *surprise*, *fear* and *sadness* had also low p-values when comparing the distribution of the values for the two journals (for instance, for the surprise emotion on the racism subject, we got a p-value of 1.712e-14). <br>
-For the subject <b>climate change</b>, Foxnews was a lot more negative (p-value of 1.813e-08) than the New York Times. For *abortion* and *religion* did not show big differences. What can be noted is the impact of the subject on the values of the emotions.
+For the subject <b>climate change</b>, Foxnews was a lot more negative (p-value of 1.813e-08) than the New York Times. For *abortion* and *religion* no big differences were shown. What can be noted is the impact of the subject on the values of the emotions.
 
 
 <body> 
@@ -350,7 +350,7 @@ Quotes mentioning covid are much more cited by Fox News compared to NYT. Indeed,
 
 ## Washington Post
 
-The last step of the sentiment analysis is to try to replicate the findings on another journal, here the Washington Post we know that it’s left oriented ([Washington Post](https://www.allsides.com/news-source/washington-post-media-bias) ). Of all the differences found before, two of the tests on this third media company are presented here: the NLTK negative sentiment year by year calculation, and the text2emotion by subject. The first one (first plot below) seems to be inconclusive: it was expected that the Washington Post would be closer to the NY times than Foxnews, but that is not the case here. This could be explained by the fact that each newspaper has its own way of choosing their quotations and therefore each newspaper is unique and not comparable. <br>
+The last step of the sentiment analysis is to try to replicate the findings on another journal, here the Washington Post we know that it’s left oriented ([Washington Post](https://www.allsides.com/news-source/washington-post-media-bias) ). Of all the differences found before, two of the tests on this third media company are presented here: the NLTK negative sentiment year by year calculation, and the text2emotion by subject. The first one (first plot below) seems to be inconclusive: it was expected that the Washington Post would be closer to the NY times than Fox News, but that is not the case here. This could be explained by the fact that each newspaper has its own way of choosing their quotations and therefore each newspaper is unique and not comparable. <br>
 On the other hand, the second test (second plot below) seems to be more robust and closer to what we expected. In fact, the immigration, terrorism and racism subjects from the Washington Post are closer to the New York Times than for Fox News. Note that in the first part of the sentiment analysis, these subjects had also the biggest differences between the two initial journals.
 
 
