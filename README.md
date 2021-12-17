@@ -214,7 +214,7 @@ ADA, EPFL, December 2021
             <div class="col text-white text-center">
                 <p>
                     <br>
-                    Mettler Marc, Gulart Maia Manuela, Msaada Sinda, Charroin François
+                    Mettler Marc, Gulart Maia Manuela, Msaada Sinda, Charroin François {color:white}
                     <br>
                     <button id="ada"><b>ADA</b></button>, EPFL, December 2021
                     <br>
