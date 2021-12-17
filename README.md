@@ -105,6 +105,55 @@ We selected some words that we thought they can differentiate democrats and repu
 A t-test was done to search for a correlation between our results and as expected, only the p-value of topics related to climate change was higher than 0.05 <b> (ALPHA !!!!!!!!!!!!!) </b> and thus their means are comparable. This could be maybe explained by the fact that the New York Times has other priorities. 
 
 
+# Sentiment analysis
+
+The sentiment analysis between the two journals has been done thanks to two libraries: NLTK and text2emotion. For the first one the function “SentimentIntensityAnalyzer” has been use, it helps determined if the sentiments of a text are positive or negative. On the other hand, text2emotion capture the intensity of these 5 emotions: fear, happiness, anger, surprise and sadness.
+The dataset has been analysed in two forms: all the quotes by the NY times and Foxnews year by year, and the quotes from these two journals on certain subjects.
+
+## Year by year analysis:
+
+<body> 
+<center> 
+<h3> Comparison of negative sentiments between Foxnews and the NY times year by year with NLTK </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<p align="center">
+  <img width="600" src="static/SA_f1.png">
+</p>
+
+This analysis showed some consistency as each year (except for 2015), the quotes from Foxnews were more negative than the one from the NYtimes. For the emotions, text2emotion function found that the quotes from Foxnews had more surprise and sadness. The fear emotion is about equal for all years between the two journals except for 2015 and 2020 where the quotes from Foxnews have more of this emotion.
+
+## By subject analysis:
+
+Six subjects were analysed: immigration, terrorism, climate change, abortion, religion and racism. The ones that showed the most differences are immigration, terrorism and religion where positive and negative from NLTK but also fear, surprise and sadness had low pvalues when comparing the distribution of these for the two journals.
+
+<body> 
+<center> 
+<h3> Comparison of emotions about immigration between Foxnews and the NY times with text2emotion </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<p align="center">
+  <img width="600" src="static/SA_f2.png">
+</p>
+
+For climate change Foxnews was a lot more negative. The abortion and racism subjects did not show big differences.
+
+<body> 
+<center> 
+<h3> Comparison of positive and negative sentiments about climate change between Foxnews and the NY times with NLTK </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<p align="center">
+  <img width="600" src="static/SA_f3.png">
+</p>
+
+
 # Example image
 
 <p style="text-align:center;"><img src="static/images/ccdf.png"></p>
