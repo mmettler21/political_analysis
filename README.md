@@ -42,7 +42,19 @@ Consequently, an alternative was proposed : the approach was to use only one chu
   <img width="600" src="static/c_v_score_NYtimes.png">
 </p>
 
-BLABLABLABLABLABLABLABLABLABLBALABLABLABLABLAB
+Latent Dirichlet Allocation (LDA) is an unsupervised method which allow to create magically topics composed of specific words.
+One has to specify the number of topics. To do so, the ideal number of topics for the newspaper has to be specified. We calculated the coherence score for different number of topics (from 2 to 10), the plots show the results. Then we have taken the number which corresponds to the highest score and we have plot the topics using PyLDAvis.
+
+<ul>
+  <li>NY 3 topics while Fox news 9 topics:
+Whereas for Fox News, an increasing tendency is noticed, for New York times, the optimal number of topics is low and equals 3. One could think that Fox News speaks more about different subjects. But another analysis would be that actually New York times treats more about various subjects so it is hard to put them into several topics as there is a lot of them and it is hard to separate the words into clear topics.
+Topic detection plots LDA:
+Most salient words:
+For NY times it is mostly democrat terms/ neutral terms: 
+Fox News: republicans, border, anti, god, white
+Democrat is a salient word for NY while Republicans is one for Fox.
+ </li>
+</ul>
 
 
 <body> 
