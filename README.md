@@ -26,12 +26,70 @@ First, the choice of the two newspapers we will work with is crucial. Some journ
 Concerning the reading of the data, our first approach was to read the dataset using chunks and then to generate a single pickle file from these chunks. The problem was that reading the chunks one after the other from the pickle file generated an extremely heavy file (the operation was stopped when the file size exceeded 150 Gigabytes!). 
 Consequently, an alternative was proposed : the approach was to use only one chunk per pickle by reading the files of each year and combining them together. Then, we were able to generate a dataframe for each newspaper we were interested in, which whole quotations between 2015 and 2020.  
 
-<iframe src="static/LDAvis_prepared_NY_3topics.html" style="width: 1500px; height: 1800px; border: 0px"></iframe>
-
 
 # What can be said about the number behind the quotations ?
 
-## BLABLABLA
+# Topic Detection
+
+## New York Times
+
+<body> 
+<center> 
+<h3> Determination of the number of topics for the New York Times </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<p align="center">
+  <img width="600" src="static/c_v_score_NYtimes.png.png">
+</p>
+
+BLABLABLABLABLABLABLABLABLABLBALABLABLABLABLAB
+
+
+<body> 
+<center> 
+<h3> Topic Detection for the New York Times </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<iframe src="static/LDAvis_prepared_NY_3topics.html" style="width: 1500px; height: 1800px; border: 0px"></iframe>
+
+
+## Fox News
+
+<body> 
+<center> 
+<h3> Determination of the number of topics for Fox News </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<p align="center">
+  <img width="600" src="static/c_v_score_NYtimes.png.png">
+</p>
+
+BLABLABLABLABLABLABLABLABLABLBALABLABLABLABLAB
+
+
+<body> 
+<center> 
+<h3> Topic Detection for the Fox News </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<iframe src="static/LDAvis_prepared_NY_3topics.html" style="width: 1500px; height: 1800px; border: 0px"></iframe>
+
+## Comparison between topics for the New York Times and Fox News
+
+BLABLABLA LES OISEAUX SONT BEAUX
+
+
+# PARTIE MANU
+
+## WORDS ????
 
 We selected some words that we thought they can differentiate democrats and republicans and we analyze their frequency of apparencies in the Quotebank. We notice that even though the number of quotations from the New York Times in the Quotebank dataset is larger than the one from Fox News <b> (mettre NUMBER !!!!!!!!!!!!!) </b>, the later has more quotations about those topics than the other one, except for climate change where their occurrences are similar. From this we can maybe elaborate a first hypothesis that Fox News gives a higher importance to sensitive topics. 
 
