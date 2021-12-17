@@ -368,6 +368,17 @@ The distribution of active users by time of day and day of the week <b>does not 
 
 Bla Bla Bla
 
+
+<ul>
+  <li><b>Mettler Marc, Goulart Maia Manuela, M'Saada Sinda, Charroin François, December 2021</li>
+  <li>EPFL - ADA 2021 - December 2021</li>
+  <li>[GitHub Repository](https://github.com/epfl-ada/ada-2021-project-therealabracadabra) </li>
+  <li>[Website Repository](https://github.com/mmettler21/political_analysis) </li>
+  <li>[Theme duo](https://github.com/chibicode/duo), by [Shu Uesugi](https://github.com/chibicode) </li>
+  <li>[GitHub Repository](https://github.com/epfl-ada/ada-2021-project-therealabracadabra) </li>
+</ul>
+
+
 <br>
 <footer style="background-color: #d32f2f>
     <div class="container">
@@ -375,7 +386,7 @@ Bla Bla Bla
             <div class="col text-white text-center">
                 <p>
                     <br>
-                    Mettler Marc, Gulart Maia Manuela, Msaada Sinda, Charroin  François
+                    Mettler Marc, Goulart Maia Manuela, M'Saada Sinda, Charroin François
                     <br>
                     <button id="ada"><b>ADA</b></button>, EPFL, December 2021
                     <br>
