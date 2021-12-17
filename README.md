@@ -255,14 +255,17 @@ Similarly to the previous part, an analysis by year showed a similar behaviour i
 
 # Sentiment analysis
 
-The sentiment analysis between the two journals has been done thanks to two libraries: NLTK and text2emotion. For the first one the function “SentimentIntensityAnalyzer” has been use, it helps determined if the sentiments of a text are positive or negative. On the other hand, text2emotion capture the intensity of these 5 emotions: fear, happiness, anger, surprise and sadness.
+The sentiment analysis between the two journals has been done thanks to two libraries: NLTK and text2emotion. For the first one the function “SentimentIntensityAnalyzer” has been use, it helps determined if the sentiments of a text are positive or negative. On the other hand, text2emotion capture the intensity of these 5 emotions: fear, happiness, anger, surprise and sadness. <br>
 The dataset has been analysed in two forms: all the quotes by the NY times and Foxnews year by year, and the quotes from these two journals on certain subjects.
 
 ## Year by year analysis:
 
+
+This analysis showed some consistency as each year (except for 2015), the quotes from Foxnews were more negative than the one from the NYtimes (for instance, in 2016, we got a p-value of 1.753e-125 ) as showed by the bar plot below. <br>
+
 <body> 
 <center> 
-<h3> Comparison of negative sentiments between Foxnews and the NY times year by year with NLTK </h3>
+   <h3> Comparison of <b> negative average sentiments score </b> between Foxnews and the NY times year by year with NLTK </h3>
    <div id="includedContent1"></div>
    </center> 
 </body> 
@@ -271,15 +274,11 @@ The dataset has been analysed in two forms: all the quotes by the NY times and F
   <img width="600" src="static/SA_f1.png">
 </p>
 
-This analysis showed some consistency as each year (except for 2015), the quotes from Foxnews were more negative than the one from the NYtimes. For the emotions, text2emotion function found that the quotes from Foxnews had more surprise and sadness. The fear emotion is about equal for all years between the two journals except for 2015 and 2020 where the quotes from Foxnews have more of this emotion.
-
-## By subject analysis:
-
-Six subjects were analysed: immigration, terrorism, climate change, abortion, religion and racism. The ones that showed the most differences are immigration, terrorism and religion where positive and negative from NLTK but also fear, surprise and sadness had low pvalues when comparing the distribution of these for the two journals.
+For the emotions, text2emotion function found that the quotations from Foxnews had more surprise and sadness than those from the New York Times (the two bar plots below illustrate this tendence). The fear emotion is about equal for all years between the two journals except for 2015 and 2020 where the quotes from Foxnews have more of this emotion.
 
 <body> 
 <center> 
-   <h3> Comparison of emotions about <b> immigration </b> between Foxnews and the NY times with text2emotion </h3>
+   <h3> Comparison of the <b> surprise and emotion average score year by year </b> between Foxnews and the NY times with text2emotion </h3>
    <div id="includedContent1"></div>
    </center> 
 </body> 
@@ -288,17 +287,71 @@ Six subjects were analysed: immigration, terrorism, climate change, abortion, re
   <img width="600" src="static/SA_f2.png">
 </p>
 
-For climate change Foxnews was a lot more negative. The abortion and racism subjects did not show big differences.
-
 <body> 
 <center> 
-<h3> Comparison of positive and negative sentiments about <b> climate change </b> between Foxnews and the NY times with NLTK </h3>
+   <h3> Comparison of the <b> average sadness score year by year </b> between Foxnews and the NY times with text2emotion </h3>
    <div id="includedContent1"></div>
    </center> 
 </body> 
 
 <p align="center">
   <img width="600" src="static/SA_f3.png">
+</p>
+
+## By subject analysis:
+
+As said before, six subjects were analysed. The ones that showed the most differences between the two newspapers are immigration, terrorism, and racism, looking at positive and negative sentiment values from NLTK. The key parameters surprise, fear and sadness had also low p-values when comparing the distribution of the values for the two journals (for instance, for the surprise emotion on the racism subject, we got a p-value of 1.712e-14). <br>
+For the subject climate change, Foxnews was a lot more negative (p-value of 1.813e-08) than the New York Times. For abortion and religion did not show big differences. What can be noted is the impact of the subject on the values of the emotions.
+
+
+<body> 
+<center> 
+   <h3> Comparison of the <b> surprise average score </b> by subject between Foxnews and the NY times with text2emotion </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<p align="center">
+  <img width="600" src="static/SA_f4.png">
+</p>
+
+<body> 
+<center> 
+   <h3> Comparison of <b> positive and negative </b> sentiments about <b> climate change </b> between Foxnews and the NY times with NLTK </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<p align="center">
+  <img width="600" src="static/SA_f5.png">
+</p>
+
+## Washington Post
+
+The last step of the sentiment analysis is to try to replicate the findings on another journal, here the Washington Post we know that it’s left oriented ([Washington Post](https://www.allsides.com/news-source/washington-post-media-bias) ). Of all the differences found before, two of the tests on this third media company are presented here: the NLTK negative sentiment year by year calculation, and the text2emotion by subject. The first one (first plot below) seems to be inconclusive: it was expected that the Washington Post would be closer to the NY times than Foxnews, but that is not the case here. This could be explained by the fact that each newspaper has its own way of writing and therefore each newspaper is unique and not comparable. <br>
+On the other hand, the second test (second plot below) seems to be more robust and closer to what we expected. In fact, the immigration, terrorism and racism subjects from the Washington Post are closer to the New York Times than for Fox News. Note that in the first part of the sentiment analysis, these subjects had also the biggest differences between the two initial journals.
+
+
+<body> 
+<center> 
+<h3> Comparison year by of positive and negative average score sentiments between Foxnews, the NY times and the Washington Post with NLTK </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<p align="center">
+  <img width="600" src="static/SA_f6.png">
+</p>
+
+<body> 
+<center> 
+<h3> Comparison by subjects of the surprise average score sentiments between Foxnews, the NY times and the Washington Post with NLTK </h3>
+   <div id="includedContent1"></div>
+   </center> 
+</body> 
+
+<p align="center">
+  <img width="600" src="static/SA_f7.png">
 </p>
 
 
