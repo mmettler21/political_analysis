@@ -102,7 +102,7 @@ It's now your turn to play with the data with a click on the circle you want to 
 
 We all know that there are hot topics where republicans and democrats diverge. We selected some of them and we have associated words to each of them. The words were mapped to the same normalized form, by stripping affixes (words stemming) whenever possible. This allows to cover a higher range of quotations that could be related to the chosen topics of <b> immigration, terrorism, climate change, abortion, religion, racism </b>.
 We first calculated how many quotations are about these specific topics. The results are illustrated in bar chart below.
-Fox News has in general more quotations about the selected topic. This behavior is observed for all topics, except for climate change where their normalized occurrences re similar (as shown in the plot). The largest difference is for abortion, where Fox News has much more quotations. Religion is also more occurring for the latter and could make a clear link with a Republican affiliation. 
+Fox News has in general more quotations about the selected topic. This behavior is observed for all topics, except for climate change where their normalized occurrences are similar (as shown in the plot). The largest difference is for abortion, where Fox News has much more quotations. Religion is also more occurring for the latter and could make a clear link with a Republican affiliation. 
  
 
 
@@ -304,7 +304,7 @@ For the subject <b>climate change</b>, Foxnews was a lot more negative (p-value 
 
 ## Sentiment analysis about the covid 
 
-Citations mentioning covid are much more cited by Fox News compared to NYT. Indeed, between 2019 and 2020, approximately 5.3% of quotations were about corona while for NYT it was only of 2.2%. When digging a bit deeper, we can see that covid related quotations for both medias are expressing a lot of fear, followed by sadness, a bit of anger and some happiness for both journals which is at first glance weird, but don’t forget that some have found teleworking appealing and grounding. The only significant difference in terms of emotion when looking at the p-value is for surprise, where Fox News has a higher score.
+Quotes mentioning covid are much more cited by Fox News compared to NYT. Indeed, between 2019 and 2020, approximately 5.3% of quotations were about corona while for NYT it was only of 2.2%. When digging a bit deeper, we can see that covid related quotations for both medias are expressing a lot of fear, followed by sadness, a bit of anger and some happiness for both journals which is at first glance weird, but don’t forget that some have found teleworking appealing and grounding. The only significant difference in terms of emotion when looking at the p-value is for surprise, where Fox News has a higher score.
 
 <body> 
 <center> 
@@ -384,7 +384,7 @@ We have taken two sided newspapers: Fox News (right sided) and New York Times (l
 Through the study of their quotations we can <b>clearly see a difference</b> for some hot topics, especially for <b>immigration, terrorism and racism</b>. Fox News seems to point them out and to have faster increasing or decreasing trends from one year to another. <br>
 Washington Post also appears to publish quotations about more various topics in comparison to FoxNews where it is easier to define specific topics and the words in the topics detection are more easily related to Republican ones.<br>
  For the <b>sentiments</b>, no clear difference is noticed apart for the fact that Fox News use more negative emotions in opposition to New York Times, but this is not shared by the Washington Post for example.<br>
-Therefore, certain quotations could reflect the political sided bias of newspapers but not completely. Indeed, one have to be careful as all this study has been carried on quotations and not on journalists writings. To analyze further the effects of quotations, many other subjects could be studied, speakers affiliations could be further analyzed, other journals could be chosen with for example less polarized opinions.<br>
+Therefore, <b>certain quotations</b> could reflect the political sided bias of newspapers but <b>not completely</b>. Indeed, one have to be careful as all this study has been carried on quotations and not on journalists writings. To analyze further the effects of quotations, many other subjects could be studied, speakers affiliations could be further analyzed, other journals could be chosen with for example less polarized opinions.<br>
 <br>
 <br>
 
