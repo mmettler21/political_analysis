@@ -14,9 +14,9 @@ url: "https://mmettler21.github.io/"
 
 # Twitter IDs
 twitter:
-  username: "mmettler"
+  username: "mmettler21"
 author:
-  twitter: "mmettler"
+  twitter: "mmettler21"
 
 # Set default og:image
 # From Unsplash: https://unsplash.com/photos/1_CMoFsPfso
@@ -25,7 +25,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "static/titre.jpg"
+      image: "static/titre2.jpg"
 
 # ----------------------------------------------------------------------------
 # Customize Options: Optional
