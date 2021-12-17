@@ -380,9 +380,9 @@ Bla Bla Bla
 
 
 
-Mettler Marc, Goulart Maia Manuela, M'Saada Sinda, Charroin François
+<b> Mettler Marc, Goulart Maia Manuela, M'Saada Sinda, Charroin François </b>
 <br>
-<button id="ada"><b>ADA</b></button>, EPFL, December 2021
+ADA, EPFL, December 2021
 <br>
 <a href="https://github.com/epfl-ada/ada-2021-project-therealabracadabra"><b>GitHub Repository</b></a>
 •
