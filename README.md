@@ -86,12 +86,12 @@ From now on, as shown in the two graphs, we will focus exclusively on 3 themes f
 
 Looking at the Topic Detection by LDA for both newspapers, the following can be observed:
 <ul>
-  <li>For the New York Times, the most salient words without definiting a topic are related to democrat or neutral terms (i.g. Biden, Democrats, Hillary, impeachment,....) </li>
-<li> Whereas for Fox News, the most salient words without definiting a topic are related to republican (expcept for the first one, Biden) or connotated words (border, anti, crime,...)
+  <li>For the New York Times, the most salient words without defining a topic are related to democrat or neutral terms (i.g. Biden, Democrats, Hillary, impeachment,....) </li>
+<li> Whereas for Fox News, the most salient words without defining a topic are related to republican (except for the first one, Biden) or connotated words (border, anti, crime,...)
  </li>
 </ul>
 
-It's now your turn to play with the data with a click on the cycle you want to make appear the detected topics! With only a small coefficient of coherence, this result should be taken with caution (the C_V is only around 0.2 and 0.3).
+It's now your turn to play with the data with a click on the circle you want to make appear! With only a small coefficient of coherence, this result should be taken with caution (the C_V is only around 0.2 and 0.3).
 
 
 
@@ -230,7 +230,7 @@ In the following part, a further depth into the data is carried out to understan
 
 # Sentiment analysis
 
-The sentiment analysis between the two journals has been done thanks to two libraries: NLTK and text2emotion. For the first one the function “SentimentIntensityAnalyzer” has been use, it helps determined if the sentiments of a text are positive or negative. On the other hand, text2emotion capture the intensity of these 5 emotions: *fear*, *happiness*, *anger*, *surprise* and *sadness*. <br>
+The sentiment analysis between the two journals has been done thanks to two libraries: NLTK and text2emotion. For the first one the function “SentimentIntensityAnalyzer” has been used, it helps determine if the sentiments of a text are positive or negative. On the other hand, text2emotion captures the intensity of these 5 emotions: *fear*, *happiness*, *anger*, *surprise* and *sadness*. <br>
 The dataset has been analysed in two forms: all the quotes by the NY times and Foxnews year by year, and the quotes from these two journals on certain subjects.
 
 ## Year by year analysis:
@@ -380,9 +380,13 @@ On the other hand, the second test (second plot below) seems to be more robust a
 
 # Conclusion
 
-Bla Bla Blaouououo
-
-
+We have taken two sided newspapers: Fox News (right sided) and New York Times (left sided). 
+Through the study of their quotations we can <b>clearly see a difference</b> for some hot topics, especially for <b>immigration, terrorism and racism</b>. Fox News seems to point them out and to have faster increasing or decreasing trends from one year to another. <br>
+Washington Post also appears to publish quotations about more various topics in comparison to FoxNews where it is easier to define specific topics and the words in the topics detection are more easily related to Republican ones.<br>
+ For the <b>sentiments</b>, no clear difference is noticed apart for the fact that Fox News use more negative emotions in opposition to New York Times, but this is not shared by the Washington Post for example.<br>
+Therefore, certain quotations could reflect the political sided bias of newspapers but not completely. Indeed, one have to be careful as all this study has been carried on quotations and not on journalists writings. To analyze further the effects of quotations, many other subjects could be studied, speakers affiliations could be further analyzed, other journals could be chosen with for example less polarized opinions.<br>
+<br>
+<br>
 
 
 <b> Mettler Marc, Goulart Maia Manuela, M'Saada Sinda, Charroin François </b>
