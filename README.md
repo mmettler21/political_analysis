@@ -185,11 +185,10 @@ The first thing that could be noticed is that even though the number of quotatio
 </body> 
 
 <p align="center">
-  <img width="600" src="static/words_updated.png">
+  <img width="600" src="static/words_sans_cinema.png">
 </p>
 
 Additionally, a t-test was done to search for a correlation between our results and as expected, only the p-value of topics related to climate change was higher than a significance level of 0.05 and thus have comparable means. 
-
 
 <table style="width:100%">
   <tr>
@@ -197,33 +196,38 @@ Additionally, a t-test was done to search for a correlation between our results 
     <th>p-value</th>
   </tr>
   <tr>
-    <td>Fear</td>
-    <td>0.496</td>
+    <td>Immigration</td>
+    <td>0.000000e+00</td>
   </tr>
   <tr>
-    <td>Happy</td>
-    <td>0.105</td>
+    <td>Terrorism</td>
+    <td>0.000000e+00</td>
   </tr>  
   <tr>
-  <td>Angry</td>
-  <td>0.277</td>
+  <td>Climate change</td>
+  <td>2.331170e-01</td>
 </tr>
 <tr>
-  <td>Surprise</td>
-  <td>0</td>
+  <td>Abortion</td>
+  <td>4.609667e-67</td>
 </tr>
    
 <tr>
-<td>Sad</td>
-<td>0.231</td>
+<td>Religion</td>
+<td>0.000000e+00</td>
+</tr>
+   
+<tr>
+ <td>Racism</td>
+ <td>8.309947e-51</td>
 </tr>
    
 <caption>p-value for the covid emotions for both newspapers
 </caption>
-   
-   
 
 </table>
+
+
 It seems here once again, that Fox News prefers to talk more about those topics that the New York Times, which consolidates the hypothesis elaborated in the topic detection section of this data story. Here, this could be maybe explained by the fact that the New York Times has other priorities than this sensitive themes. 
 
 # Sentiment analysis
