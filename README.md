@@ -54,7 +54,7 @@ BLABLABLABLABLABLABLABLABLABLBALABLABLABLABLAB
    </center> 
 </body> 
 
-<iframe src="static/LDAvis_prepared_NY_3topics.html" style="width: 1500px; height: 1800px; border: 0px"></iframe>
+<iframe src="static/LDAvis_prepared_NY_3topics.html" style="width: 1500px; height: 1400px; border: 0px"></iframe>
 
 
 ## Fox News
