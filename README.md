@@ -95,7 +95,7 @@ Fox News: republicans, border, anti, god, white
 Democrat is a salient word for NY while Republicans is one for Fox.
 
 
-# PARTIE MANU :  What can be said about the number behind the quotations ?
+# What can be said about the number behind the quotations ?
 
 <table style="width:100%">
   <tr>
@@ -168,9 +168,14 @@ Democrat is a salient word for NY while Republicans is one for Fox.
 
 </table>
 
-## WORDS ????
+## Quotes counting
 
-We selected some words that we thought they can differentiate democrats and republicans and we analyze their frequency of apparencies in the Quotebank. We notice that even though the number of quotations from the New York Times in the Quotebank dataset is larger than the one from Fox News <b> (mettre NUMBER !!!!!!!!!!!!!) </b>, the later has more quotations about those topics than the other one, except for climate change where their occurrences are similar. From this we can maybe elaborate a first hypothesis that Fox News gives a higher importance to sensitive topics. 
+A part of the story told by our data is taken from the study of two newspapers, the New York Times and Fox news, from which the occurrences of quotations made by each newspaper was analysed. 
+To begging with, the data showed that the New York Times had more quotations available in the Quotebank dataset than Fox news. The number of quotations found for the New York Times was of 894838 quotes compared to 708383 for Fox News. 
+Then, by searching for some topics where it is known republicans and democrats have opposing opinions, the occurrences of certain topic-related quotations were analysed for each newspaper. 
+This choice of quotations was done thanks to a selection of words that usually are employed when talking about the chosen topics. Besides, each word was mapped to the same, normalized form, by stripping affixes (words stemming) whenever possible. This allowed to cover a higher range of quotations that could be related to the chosen topics of immigration, terrorism, climate change, abortion, religion, racism. 
+The first thing that could be noticed is that even though the number of quotations from the New York Times in the Quotebank dataset is larger than the one from Fox News, the later has, in general, more quotations about the selected topic. This behavior was observed for all topics, except for climate change where their normalized occurrences were similar (as shown in the plot number###). Here the normalization was done by dividing the number of quotations obtained, for each topic and each newspaper, by the total number of quotations of each newspaper. The percentage of immigration related quotes cited by the New York Times related to the total amount of quotes the New York Times cites is then, for example, obtained and can be compared to the corresponding quotes percentage from Fox News. 
+
 
 <body> 
 <center> 
@@ -183,8 +188,43 @@ We selected some words that we thought they can differentiate democrats and repu
   <img width="600" src="static/words_updated.png">
 </p>
 
-A t-test was done to search for a correlation between our results and as expected, only the p-value of topics related to climate change was higher than 0.05 <b> (ALPHA !!!!!!!!!!!!!) </b> and thus their means are comparable. This could be maybe explained by the fact that the New York Times has other priorities. 
+Additionally, a t-test was done to search for a correlation between our results and as expected, only the p-value of topics related to climate change was higher than a significance level of 0.05 and thus have comparable means. 
 
+
+<table style="width:100%">
+  <tr>
+    <th></th>
+    <th>p-value</th>
+  </tr>
+  <tr>
+    <td>Fear</td>
+    <td>0.496</td>
+  </tr>
+  <tr>
+    <td>Happy</td>
+    <td>0.105</td>
+  </tr>  
+  <tr>
+  <td>Angry</td>
+  <td>0.277</td>
+</tr>
+<tr>
+  <td>Surprise</td>
+  <td>0</td>
+</tr>
+   
+<tr>
+<td>Sad</td>
+<td>0.231</td>
+</tr>
+   
+<caption>p-value for the covid emotions for both newspapers
+</caption>
+   
+   
+
+</table>
+It seems here once again, that Fox News prefers to talk more about those topics that the New York Times, which consolidates the hypothesis elaborated in the topic detection section of this data story. Here, this could be maybe explained by the fact that the New York Times has other priorities than this sensitive themes. 
 
 # Sentiment analysis
 
