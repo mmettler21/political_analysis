@@ -391,31 +391,6 @@ Title image : [Pew Research Center, consulted the 17.12.2021](https://www.pewres
 
 
 
-<br>
-<footer style="background-color: #d32f2f>
-    <div class="container">
-        <div class="row ">
-            <div class="col text-white text-center">
-                <p>
-                    <br>
-                    Mettler Marc, Goulart Maia Manuela, M'Saada Sinda, Charroin François
-                    <br>
-                    <button id="ada"><b>ADA</b></button>, EPFL, December 2021
-                    <br>
-                    <a href="https://github.com/epfl-ada/ada-2021-project-therealabracadabra"><b>GitHub Repository</b></a>
-                    •
-                    <a href="https://github.com/mmettler21/political_analysis"> <b> Website Repository </b> </a>
-                    <br>
-                    <b>Theme </b>
-                    <a href="https://github.com/chibicode/duo">duo</a>
-                    <b>by </b>
-                    <a href="https://github.com/chibicode">Shu Uesugi</a>
-                    <br>
-                </p>
-            </div>
-        </div>
-    </div>
-
 <a href="https://github.com/epfl-ada/ada-2021-project-therealabracadabra" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
         <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor"
